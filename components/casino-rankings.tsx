@@ -92,7 +92,7 @@ export function CasinoRankings() {
                       <div className="flex items-center justify-center gap-1 text-red-600 mb-2">
                         <span className="text-sm font-medium">Bónus de Boas-Vindas</span>
                       </div>
-                      <div className="text-red-600 font-bold text-base leading-tight font-playfair p-2 rounded bg-primary/10">
+                      <div className="text-slate-50 font-bold text-base leading-tight font-playfair p-2 rounded bg-primary/10">
                         {casino.bonus}
                       </div>
                       <div className="mt-3 text-center">
@@ -134,7 +134,7 @@ export function CasinoRankings() {
                         {casino.rank}
                       </div>
                       <div className="text-center flex-1">
-                        <div className="bg-white/80 backdrop-blur-sm rounded-lg shadow-sm mb-2 mx-auto w-fit relative z-10 p-2">
+                        <div className="bg-black backdrop-blur-sm rounded-lg shadow-sm mb-2 mx-auto w-fit relative z-10 p-2">
                           <img
                             src={casino.logo || "/placeholder.svg"}
                             alt={`${casino.name} logo`}
@@ -147,7 +147,7 @@ export function CasinoRankings() {
                       <div className="flex items-center justify-center gap-1 text-red-600 mb-2">
                         <span className="text-sm font-medium">Bónus de Boas-vindas</span>
                       </div>
-                      <div className="text-red-600 font-bold text-lg leading-tight font-playfair">{casino.bonus}</div>
+                      <div className="text-slate-50 font-bold text-lg leading-tight font-playfair">{casino.bonus}</div>
                     </div>
                     <div className="text-center flex-shrink-0" style={{ width: "120px" }}>
                       <div className="flex items-center justify-center gap-1 mb-1">
@@ -201,7 +201,7 @@ export function CasinoRankings() {
                         {casino.rank}
                       </div>
                       <div className="text-center flex-1">
-                        <div className="bg-white/90 backdrop-blur-sm rounded-lg shadow-md mb-3 mx-auto w-fit relative z-10 p-3">
+                        <div className="bg-black backdrop-blur-sm rounded-lg shadow-md mb-3 mx-auto w-fit relative z-10 p-3">
                           <img
                             src={casino.logo || "/placeholder.svg"}
                             alt={`${casino.name} logo`}

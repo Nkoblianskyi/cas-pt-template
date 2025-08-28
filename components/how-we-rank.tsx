@@ -157,7 +157,7 @@ export function HowWeRank() {
               <div className="md:hidden w-full">
                 <div className="flex items-center justify-between mb-3">
                   <div className="flex-shrink-0">
-                    <div className="bg-white/80 backdrop-blur-sm rounded-lg shadow-sm relative z-10 p-2">
+                    <div className="bg-black backdrop-blur-sm rounded-lg shadow-sm relative z-10 p-2">
                       <img
                         src={topCasino.logo || "/placeholder.svg"}
                         alt={`${topCasino.name} logo`}
@@ -199,7 +199,7 @@ export function HowWeRank() {
                   >
                     JOGAR AGORA
                   </Button>
-                  <p className="text-xs text-muted-foreground mt-1">18+ безпечна гра</p>
+                  <p className="text-xs text-muted-foreground mt-1">18+ Jogo Responsável</p>
                 </div>
               </div>
 
@@ -210,7 +210,7 @@ export function HowWeRank() {
                       {topCasino.rank}
                     </div>
                     <div className="text-center flex-1">
-                      <div className="bg-white/80 backdrop-blur-sm rounded-lg shadow-sm mb-2 mx-auto w-fit relative z-10 p-2">
+                      <div className="bg-black backdrop-blur-sm rounded-lg shadow-sm mb-2 mx-auto w-fit relative z-10 p-2">
                         <img
                           src={topCasino.logo || "/placeholder.svg"}
                           alt={`${topCasino.name} logo`}
@@ -265,7 +265,7 @@ export function HowWeRank() {
                       {topCasino.rank}
                     </div>
                     <div className="text-center flex-1">
-                      <div className="bg-white/90 backdrop-blur-sm rounded-lg shadow-md mb-3 mx-auto w-fit relative z-10 p-3">
+                      <div className="bg-black backdrop-blur-sm rounded-lg shadow-md mb-3 mx-auto w-fit relative z-10 p-3">
                         <img
                           src={topCasino.logo || "/placeholder.svg"}
                           alt={`${topCasino.name} logo`}
@@ -301,7 +301,7 @@ export function HowWeRank() {
                     >
                       JOGAR AGORA
                     </Button>
-                    <p className="text-xs text-muted-foreground mt-1 text-center">18+ безпечна гра</p>
+                    <p className="text-xs text-muted-foreground mt-1 text-center">18+ Jogo Responsável</p>
                   </div>
                 </div>
               </div>
