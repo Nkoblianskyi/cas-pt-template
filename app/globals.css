@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Updated to dark theme as default with Portuguese colors: black, red, gold, green */
+    --background: 0 0% 8%; /* Dark background */
+    --foreground: 0 0% 98%; /* Light text */
+    --card: 0 0% 12%; /* Dark cards */
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 8%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 348 40% 45%; /* Muted deep red */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 45 30% 55%; /* Muted gold */
+    --secondary-foreground: 0 0% 8%;
+    --muted: 0 0% 15%; /* Dark muted */
+    --muted-foreground: 0 0% 64%;
+    --accent: 142 20% 45%; /* Muted forest green */
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 45% 40%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 15%; /* Dark borders */
+    --input: 0 0% 15%; /* Dark inputs */
+    --ring: 348 40% 45%;
+    --radius: 0.5rem;
+    --chart-1: 348 40% 45%;
+    --chart-2: 45 30% 55%;
+    --chart-3: 142 20% 45%;
+    --chart-4: 0 0% 98%;
+    --chart-5: 0 45% 40%;
+  }
+
+  .dark {
+    /* Kept same values for consistency in dark mode */
+    --background: 0 0% 8%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 12%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 8%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 348 40% 45%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 45 30% 55%;
+    --secondary-foreground: 0 0% 8%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 64%;
+    --accent: 142 20% 45%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 45% 40%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 15%;
+    --input: 0 0% 15%;
+    --ring: 348 40% 45%;
+    --radius: 0.5rem;
+    --chart-1: 348 40% 45%;
+    --chart-2: 45 30% 55%;
+    --chart-3: 142 20% 45%;
+    --chart-4: 0 0% 98%;
+    --chart-5: 0 45% 40%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Added Portuguese-inspired patterns and custom styles */
+@layer components {
+  .portuguese-pattern {
+    background-image: radial-gradient(circle at 25% 25%, hsl(var(--primary)) 2px, transparent 2px),
+      radial-gradient(circle at 75% 75%, hsl(var(--accent)) 1px, transparent 1px);
+    background-size: 50px 50px;
+    background-position: 0 0, 25px 25px;
+    opacity: 0.05;
+  }
+
+  .casino-card {
+    @apply bg-card border border-border rounded-lg shadow-sm hover:shadow-md transition-all duration-300;
+  }
+
+  .trust-badge {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-primary/10 text-primary border border-primary/20;
+  }
+
+  .gold-accent {
+    @apply text-secondary;
+  }
+
+  .portugal-gradient {
+    background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--accent)) 100%);
+  }
+}
