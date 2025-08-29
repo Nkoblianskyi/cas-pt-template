@@ -33,11 +33,6 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="#how-we-rank" className="text-slate-400 hover:text-white text-sm transition-colors">
-                  Como Avaliamos
-                </Link>
-              </li>
-              <li>
 
               </li>
               <li>
