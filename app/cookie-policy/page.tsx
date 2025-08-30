@@ -94,7 +94,7 @@ export default function CookiePolicyPage() {
               <section>
                 <h2 className="text-2xl font-semibold text-red-600 mb-4">Contacto</h2>
                 <p className="text-gray-300">
-                  Para questões sobre cookies, contacte-nos: <strong>cookies@casinotopportugal.com</strong>
+                  Para questões sobre cookies, contacte-nos: <strong>cookies@sitesdemelhorescasinos.com</strong>
                 </p>
               </section>
             </div>

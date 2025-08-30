@@ -8,15 +8,15 @@ export function Header() {
       <div className="container mx-auto px-4 py-3 sm:py-4">
         <div className="flex items-center justify-center">
           <Link href="/" className="flex items-center space-x-3 hover:opacity-80 transition-opacity">
-            <Image src="/logo.png" alt="Logo" width={40} height={40} />
+            <Image src="/logo.png" alt="Logo" width={28} height={28} />
             <span className="text-xl font-bold font-playfair">
-              <span className="text-red-600">Casino</span>
-              <span className="text-white">Top</span>
-              <span className="text-green-600">Portugal</span>
+              <span className="text-red-600">Sites</span>
+              <span className="text-white">DeMelhores</span>
+              <span className="text-green-600">Casinos</span>
             </span>
           </Link>
         </div>
-      </div>
+      </div>  
     </header>
   )
 }

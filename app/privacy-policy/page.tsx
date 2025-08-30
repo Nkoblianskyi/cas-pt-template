@@ -137,7 +137,7 @@ export default function PrivacyPolicyPage() {
                 <p className="text-gray-300">
                   Para exercer os seus direitos ou esclarecer dúvidas sobre privacidade:
                   <br />
-                  <strong>Email:</strong> privacidade@casinotopportugal.com
+                  <strong>Email:</strong> privacidade@sitesdemelhorescasinos.com
                   <br />
                   <strong>Resposta:</strong> Dentro de 30 dias
                   <br />

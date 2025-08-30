@@ -10,11 +10,11 @@ export function Footer() {
           {/* Logo and Description */}
           <div className="md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
-              <Image src="/logo.png" alt="Logo" width={40} height={40} />
+              <Image src="/logo.png" alt="Logo" width={28} height={28} />
               <span className="text-lg font-bold font-playfair">
-                <span className="text-red-600">Casino</span>
-                <span className="text-white">Top</span>
-                <span className="text-green-600">Portugal</span>
+                <span className="text-red-600">Sites</span>
+              <span className="text-white">DeMelhores</span>
+              <span className="text-green-600">Casinos</span>
               </span>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed max-w-md">
@@ -122,7 +122,7 @@ export function Footer() {
           {/* Copyright */}
           <div className="text-center">
             <p className="text-slate-500 text-sm">
-              © 2025 CasinoTopPortugal. Todos os direitos reservados. | Jogo Responsável
+              © 2025 SitesDeMelhoresCasinos.com. Todos os direitos reservados. | Jogo Responsável
             </p>
           </div>
         </div>

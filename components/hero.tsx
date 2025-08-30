@@ -2,6 +2,7 @@
 
 import { Shield, Clock, Award } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
+import Image from "next/image"
 
 export function Hero() {
   const currentDate = new Date()
@@ -35,11 +36,7 @@ export function Hero() {
           <div className="flex-1 text-center lg:text-left">
             <div className="flex items-center justify-center lg:justify-start gap-3 mb-2 md:mb-3">
               <div className="relative">
-                <img
-                  src="/flag.png"
-                  alt="Portugal Flag"
-                  className="w-6 h-4 md:w-8 md:h-6 rounded shadow-lg border border-red-600/30"
-                />
+                
               </div>
               <Badge className="bg-red-700 text-white px-2 py-1 text-xs font-semibold">PORTUGAL 2025</Badge>
             </div>
@@ -56,7 +53,13 @@ export function Hero() {
 
             <div className="flex items-center justify-center lg:justify-start gap-4 text-xs text-slate-400">
               <div className="flex items-center gap-1">
-                <Shield className="w-3 h-3 text-green-500" />
+                <Image
+                  src="/flag.png"
+                  width={24}
+                  height={24}                  
+                  alt="Portugal Flag"
+                  className="w-4 h-4 md:w-4 md:h-4 rounded shadow-lg"
+                />
                 <span>100% Seguro</span>
               </div>
               <div className="flex items-center gap-1">
