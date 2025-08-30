@@ -16,7 +16,7 @@ export default function CookiePolicyPage() {
                 <h2 className="text-2xl font-semibold text-red-600 mb-4">O que são Cookies?</h2>
                 <p className="text-gray-300">
                   Os cookies são pequenos ficheiros de texto armazenados no seu dispositivo quando visita o
-                  CasinoTopPortugal. Estes ficheiros ajudam-nos a melhorar a sua experiência de navegação, recordar as
+                  SitesDeMelhoresCasinos. Estes ficheiros ajudam-nos a melhorar a sua experiência de navegação, recordar as
                   suas preferências e fornecer-lhe conteúdo personalizado sobre os melhores casinos online em Portugal.
                 </p>
               </section>

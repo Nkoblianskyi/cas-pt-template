@@ -15,7 +15,7 @@ export default function PrivacyPolicyPage() {
               <section>
                 <h2 className="text-2xl font-semibold text-red-600 mb-4">1. Informações que Recolhemos</h2>
                 <p className="text-gray-300 mb-4">
-                  O CasinoTopPortugal recolhe informações para fornecer as melhores classificações e recomendações de
+                  O SitesDeMelhoresCasinos recolhe informações para fornecer as melhores classificações e recomendações de
                   casinos online em Portugal:
                 </p>
                 <ul className="text-gray-300 space-y-2 ml-6">
